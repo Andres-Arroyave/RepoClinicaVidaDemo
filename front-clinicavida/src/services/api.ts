@@ -94,8 +94,8 @@ export interface RiskItem {
   intervention_measures: string;
 }
 
-// Production backend URL (configurable via env or fallback to local)
-const API_BASE = (import.meta as any).env?.VITE_API_BASE_URL || (window.location.hostname === 'localhost' ? 'http://localhost:3000/api' : '/api');
+// Enlace dinámico: toma la URL de Render (VITE_API_URL) si existe, o localhost en dev
+const API_BASE = import.meta.env.VITE_API_URL || (window.location.hostname === 'localhost' ? 'http://localhost:3000/api' : '/api');
 
 // Fallback initial in-memory data for pure frontend resilience
 const fallbackSedes: ClinicSede[] = [
