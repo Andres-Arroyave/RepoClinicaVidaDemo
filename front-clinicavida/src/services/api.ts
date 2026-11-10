@@ -348,7 +348,7 @@ export const api = {
       },
       topOpportunities: [
         {
-          area: 'Reducción de Tiempo de Espera en Triage (Reto 6)',
+          area: 'Reducción de Tiempo de Espera en Triage',
           impact: 'Alto',
           score: 3.8,
           actionAI: 'Notificación inteligente previa al turno vía SMS/WhatsApp para escalonar llegadas a Urgencias Prado Centro.'

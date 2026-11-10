@@ -124,7 +124,7 @@ const runAIRouting = async () => {
   <div class="map-module animate-fade">
     <div class="module-header">
       <div class="header-content">
-        <span class="badge badge-primary">Reto Clínica Vida #7</span>
+        <span class="badge badge-primary">Red Asistencial Valle de Aburrá</span>
         <h2>Red de Sedes en Medellín & Ruteo Asistido por Inteligencia Artificial</h2>
         <p class="subtitle">
           Explora la ubicación satelital, nivel de complejidad médica y cartera de servicios de las sedes de Clínica Vida en el Valle de Aburrá. Utiliza el orientador de triaje con IA para saber a qué sede acudir según tu necesidad médica.

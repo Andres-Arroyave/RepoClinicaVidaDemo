@@ -39,8 +39,8 @@ const activeTab = ref<Tab>('sst');
             @click="activeTab = 'satisfaction'"
           >
             <span class="tab-icon">🤖</span>
-            <span>Reto 6: IA Satisfacción</span>
-            <span class="badge-mini">NLP</span>
+            <span>Satisfacción de Usuarios</span>
+            <span class="badge-mini">IA NLP</span>
           </button>
 
           <button
@@ -48,7 +48,7 @@ const activeTab = ref<Tab>('sst');
             @click="activeTab = 'map'"
           >
             <span class="tab-icon">🗺️</span>
-            <span>Reto 7: Mapa de Sedes</span>
+            <span>Red de Sedes & Ruteo</span>
           </button>
 
           <button
@@ -56,7 +56,7 @@ const activeTab = ref<Tab>('sst');
             @click="activeTab = 'risk'"
           >
             <span class="tab-icon">📊</span>
-            <span>Matriz GTC 45</span>
+            <span>Matriz de Riesgos GTC 45</span>
           </button>
 
           <button
@@ -64,7 +64,7 @@ const activeTab = ref<Tab>('sst');
             @click="activeTab = 'tech'"
           >
             <span class="tab-icon">📐</span>
-            <span>Marco Tecnológico</span>
+            <span>Arquitectura del Sistema</span>
           </button>
         </nav>
 

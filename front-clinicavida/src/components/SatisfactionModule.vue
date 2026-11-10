@@ -87,10 +87,10 @@ const submitFeedback = async () => {
   <div class="satisfaction-module animate-fade">
     <div class="module-banner">
       <div class="banner-badge">
-        <span class="badge badge-primary">Reto Clínica Vida #6</span>
+        <span class="badge badge-primary">Calidad en Salud & SOGCS</span>
         <span class="badge badge-success">Motor IA NLP en Tiempo Real</span>
       </div>
-      <h2>Sistema IA de Evaluación Inmediata de Satisfacción & Mejora Continua</h2>
+      <h2>Evaluación Inmediata de Satisfacción & Mejora Continua</h2>
       <p class="banner-text">
         Permite a la Clínica Vida recopilar al instante la percepción del paciente al finalizar cualquier servicio médico, procesando el lenguaje natural con IA para detectar alertas, clasificar el sentimiento y generar acciones de mejora inmediatas.
       </p>
