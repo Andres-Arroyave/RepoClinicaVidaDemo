@@ -4,9 +4,10 @@ import SSTModule from './components/SSTModule.vue';
 import SatisfactionModule from './components/SatisfactionModule.vue';
 import MapModule from './components/MapModule.vue';
 import RiskMatrixModule from './components/RiskMatrixModule.vue';
+import TrainingsModule from './components/TrainingsModule.vue';
 import TechFrameworkModule from './components/TechFrameworkModule.vue';
 
-type Tab = 'sst' | 'satisfaction' | 'map' | 'risk' | 'tech';
+type Tab = 'sst' | 'satisfaction' | 'map' | 'risk' | 'trainings' | 'tech';
 const activeTab = ref<Tab>('sst');
 </script>
 
@@ -60,6 +61,15 @@ const activeTab = ref<Tab>('sst');
           </button>
 
           <button
+            :class="['tab-btn', { active: activeTab === 'trainings' }]"
+            @click="activeTab = 'trainings'"
+          >
+            <span class="tab-icon">🎓</span>
+            <span>Capacitaciones SST Sedes</span>
+            <span class="badge-mini">COPASST</span>
+          </button>
+
+          <button
             :class="['tab-btn', { active: activeTab === 'tech' }]"
             @click="activeTab = 'tech'"
           >
@@ -82,6 +92,7 @@ const activeTab = ref<Tab>('sst');
         <SatisfactionModule v-else-if="activeTab === 'satisfaction'" />
         <MapModule v-else-if="activeTab === 'map'" />
         <RiskMatrixModule v-else-if="activeTab === 'risk'" />
+        <TrainingsModule v-else-if="activeTab === 'trainings'" />
         <TechFrameworkModule v-else-if="activeTab === 'tech'" />
       </div>
     </main>
